@@ -1,0 +1,80 @@
+img {
+  width: 100%;
+  height: 100vh;
+  object-position: center;
+  object-fit: cover;
+}
+span {
+  color: red;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 50px;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+h4 {
+  color: antiquewhite;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.newslatter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newslatterform input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid red;
+  outline: none;
+  border-radius: 30px;
+}
+.newslatterform input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+  top: 6px;
+  right: 6px;
+}
+.share {
+  position: absolute;
+  top: 90%;
+  left: 8%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.share p {
+  font-size: 17px;
+  color: white;
+  margin-right: 60px;
+}
+.share .social a {
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+  transition: transform 0.3s;
+}
+.share .social a:hover {
+  transform: scale(1.6);
+}
